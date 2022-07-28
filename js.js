@@ -1,8 +1,10 @@
 
-function func() {
-    var x = 10;
-    var y = 10;
-    return x + y;
+var x = 5;
+var y = 10;
+
+function or(){
+    return x > 10 || y > 10;
 }
 
-alert(func());
+alert(or()); 
+
